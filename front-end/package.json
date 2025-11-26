@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "prettier":{
-    "plugins": ["prettier-plugin-tailwindcss"]
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +13,7 @@
     "@tailwindcss/vite": "^4.1.17",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
